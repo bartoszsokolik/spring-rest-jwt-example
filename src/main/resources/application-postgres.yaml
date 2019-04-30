@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres:5432/security?security
+    username: ${POSTGRES_USER}
+    password: ${POSTGRES_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+  liquibase:
+    changeLog: classpath:/db/changelog/db.changelog-master.xml

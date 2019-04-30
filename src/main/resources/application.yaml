@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: h2
+
+microservice:
+  security:
+    expirationTime: 3600000
+    secret: "secret"
