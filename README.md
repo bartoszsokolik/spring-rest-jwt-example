@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/bartoszsokolik/spring-rest-jwt-example.svg?branch=master)](https://travis-ci.org/bartoszsokolik/spring-rest-jwt-example)
+
 ## About
 Simple REST application with Json Web Token (JWT) authentication and H2 Datbase.
 Available endpoints:
