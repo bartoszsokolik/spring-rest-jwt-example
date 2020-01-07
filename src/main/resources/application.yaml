@@ -5,4 +5,4 @@ spring:
 microservice:
   security:
     expirationTime: 3600000
-    secret: "secret"
+    secret: "c2VjcmV0"
